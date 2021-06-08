@@ -1,0 +1,4 @@
+com\niz\secure\User.class
+com\niz\secure\SecurejwtApplication.class
+com\niz\secure\JwtService.class
+com\niz\secure\JwtResponse.class

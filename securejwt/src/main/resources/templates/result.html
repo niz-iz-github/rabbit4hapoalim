@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta charset="windows-1255">
+<title>Result Page</title>
+</head>
+<body>
+
+<form id="theForm"  action="/secure/" method="get">
+
+<p th:text="'Name: ' + ${user.name}"></p>
+<p th:text="'Password: ' + ${user.password}"></p>
+<p th:text="'Token: ' + ${user.token}"></p>
+ <input type="submit" value="Back to login">
+
+</form>
+</body>
+</html>
